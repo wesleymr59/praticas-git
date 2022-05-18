@@ -1,4 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+<h1>GIT Dicas:</h1>
 <!--ts-->
 * [Padrões de Commit](#padroes)
     * [Fix](#fix)
@@ -54,44 +55,51 @@
  • <span id="exemplosdocs">Exemplo -> "docs: adiciona stack de Pyhon e Ruby a documentação"</span>
  <br>
  • <span id="exemplosChore">
-Exemplo -> "chore!: remove suporte ao Node 14
-        Para suportar novas funcionalidades que vão
-        agregar mais desempenho a aplicação como o
-        `Promises.any` estamos subindo o requerimento
-        mínimo do projeto. <br>
+    Exemplo -> "chore!: remove suporte ao Node 14
+            Para suportar novas funcionalidades que vão
+            agregar mais desempenho a aplicação como o
+            `Promises.any` estamos subindo o requerimento
+            mínimo do projeto. <br>
         BREAKING CHANGE: a versão minima do Node agora é a 16."
 </span>
 <br><br>
- • <span id="" >Uma forma simples que nos diz se o seu commit faz sentido completando a frase: “Se aplicado, esse commit ______________”</span>
+• <span id="" >Uma forma simples que nos diz se o seu commit faz sentido completando a frase: “Se aplicado, esse commit ______________”</span>
 </p>
 <br>
 
 <h1 id="comandos">Comandos:</h1>
- • <span id="gitignore"> git config -> comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit. </span> <br>
+• <span id="gitignore"> git config -> comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit. </span> <br>
 <p style="padding-left:5em;">git config --global user.name “Seu nome” <br>
           git config --global user.email “Seu email”
     </p>
- <br>
+<br>
+
 • <span id="gitinit"> git init -> O comando irá criar um repositório novo em branco.</span> <br>
 <p style="padding-left:5em;">git init</p>
- <br>
+<br>
+
 • <span id="gitclone"> git clone -> Esse comando Git cria uma cópia exata de um repositório já existente.  </span> <br>
 <p style="padding-left:5em;">git clone &lt; URL do seu projeto &gt; </p>
  <br>
-• <span id="gitignore"> git add-> adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados.</span> <br>
+
+• <span id="gitiadd"> git add-> adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados.</span> <br>
 <p style="padding-left:5em;">git add &lt; Seu Arquivo &gt; </p>
 <p style="padding-left:5em;">git add .</p>
- <br>
-• <span id="gitignore"> git init -> O comando irá criar um repositório novo em branco  </span> <br>
-<p style="padding-left:5em;">git init</p>
- <br>
-• <span id="gitignore"> git init -> O comando irá criar um repositório novo em branco  </span> <br>
-<p style="padding-left:5em;">git init</p>
- <br>
-• <span id="gitignore"> git init -> O comando irá criar um repositório novo em branco  </span> <br>
-<p style="padding-left:5em;">git init</p>
- <br>
+<br>
 
+• <span id="gitcommit"> git commit -> Executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log.  </span> <br>
+<p style="padding-left:5em;"> git commit -m "seu comentário"</p>
+<br>
+
+• <span id="gitbranch"> git branch -> Branches "ramificações". A grosso modo, um branch é um caminho independente de desenvolvimento, uma alternativa.  </span> <br>
+<p style="padding-left:5em;">git branch</p>
+<p style="padding-left:5em;"> git branch &lt;nome_do_branch&gt; (cria um branch com o nome especificado)</p>
+<p style="padding-left:5em;">git branch -d &lt;nome_do_branch&gt; (deleta o branch com o nome especificado)</p>
+<br>
+
+• <span id="gitignore"> git checkout -> Ainda sobre branches, esse comando Git pode ser utilizado para trocar de uma ramificação para outra.  </span> <br>
+<p style="padding-left:5em;">git checkout &lt;nome_do_branch&gt;</p>
+<br>
 
 <br>
 
