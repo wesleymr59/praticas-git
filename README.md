@@ -17,7 +17,15 @@
     * [Exemplo Docs](#exemplosdocs)
     * [Exemplo Chore](#exemplosChore)
 * [Comandos](#comandos)
+    * [Git Config](#gitconfig)
+    * [Git Init](#gitinit)
+    * [Git Clone](#gitclone)
+    * [Git Add](#gitiadd)
+    * [Git Commit](#gitcommit)
+    * [Git Branch](#gitbranch)
     * [Git Ignore](#gitignore)
+    * [Git Branch](#gitbranch)
+    * [Git Checkout](#gitcheckout)
 * [Dicas](#dicas)
 * [Referencias](#referencias)
 <!--te-->
@@ -50,12 +58,10 @@
 <br>
 
 <h1 id="exemplos">Exemplos:</h1>
-
- • <span id="exemplosFeat">Exemplo -> "feat: adicionado nova forma de requisição utilizando RestShap"</span>
+• <span id="exemplosFeat">Exemplo -> "feat: adicionado nova forma de requisição utilizando RestShap"</span>
  <br>
- • <span id="exemplosdocs">Exemplo -> "docs: adiciona stack de Pyhon e Ruby a documentação"</span>
- <br>
- • <span id="exemplosChore">
+• <span id="exemplosdocs">Exemplo -> "docs: adiciona stack de Pyhon e Ruby a documentação"</span> <br>
+• <span id="exemplosChore">
     Exemplo -> "chore!: remove suporte ao Node 14
             Para suportar novas funcionalidades que vão
             agregar mais desempenho a aplicação como o
@@ -69,19 +75,16 @@
 <br>
 
 <h1 id="comandos">Comandos:</h1>
-• <span id="gitignore"> git config -> comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit. </span> <br>
+• <span id="gitconfig"> git config -> comando é fundamental para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit. </span> <br>
 <p style="padding-left:5em;">git config --global user.name “Seu nome” <br>
           git config --global user.email “Seu email”
-    </p>
-<br>
+</p><br>
 
 • <span id="gitinit"> git init -> O comando irá criar um repositório novo em branco.</span> <br>
-<p style="padding-left:5em;">git init</p>
-<br>
+<p style="padding-left:5em;">git init</p><br>
 
 • <span id="gitclone"> git clone -> Esse comando Git cria uma cópia exata de um repositório já existente.  </span> <br>
-<p style="padding-left:5em;">git clone &lt; URL do seu projeto &gt; </p>
- <br>
+<p style="padding-left:5em;">git clone &lt; URL do seu projeto &gt; </p><br>
 
 • <span id="gitiadd"> git add-> adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados.</span> <br>
 <p style="padding-left:5em;">git add &lt; Seu Arquivo &gt; </p>
@@ -94,11 +97,11 @@
 
 • <span id="gitbranch"> git branch -> Branches "ramificações". A grosso modo, um branch é um caminho independente de desenvolvimento, uma alternativa.  </span> <br>
 <p style="padding-left:5em;">git branch</p>
-<p style="padding-left:5em;"> git branch &lt;nome_do_branch&gt; (cria um branch com o nome especificado)</p>
+<p style="padding-left:5em;">git branch &lt;nome_do_branch&gt; (cria um branch com o nome especificado)</p>
 <p style="padding-left:5em;">git branch -d &lt;nome_do_branch&gt; (deleta o branch com o nome especificado)</p>
 <br>
 
-• <span id="gitignore"> git checkout -> Ainda sobre branches, esse comando Git pode ser utilizado para trocar de uma ramificação para outra.  </span> <br>
+• <span id="gitcheckout"> git checkout -> Ainda sobre branches, esse comando Git pode ser utilizado para trocar de uma ramificação para outra.  </span> <br>
 <p style="padding-left:5em;">git checkout &lt;nome_do_branch&gt;</p>
 <br>
 
@@ -115,5 +118,5 @@
 • <a href="https://medium.com/boas-pr%C3%A1ticas-para-commits-no-git/boas-pr%C3%A1ticas-de-git-commit-628f3ec088e">https://medium.com/boas-pr%C3%A1ticas-para-commits-no-git/boas-pr%C3%A1ticas-de-git-commit-628f3ec088e</a><br>
 • <a href="https://www.alura.com.br/artigos/escrever-bom-readme">https://www.alura.com.br/artigos/escrever-bom-readme</a><br>
 • <a href="https://www.codigofonte.com.br/artigos/top-25-comandos-do-git">https://www.codigofonte.com.br/artigos/top-25-comandos-do-git</a><br>
- 
+
 <br>
